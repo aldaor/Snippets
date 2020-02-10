@@ -1,4 +1,4 @@
-  //ЧТО СДЕЛАТЬ
+    //ЧТО СДЕЛАТЬ
         // - парсинг cookie names
         // - Добавить анализ не только траффика, но и LocalStorage
         // - если base64, то после декодирования можно поиск данных сделать
@@ -44,9 +44,9 @@
 		if (!string.IsNullOrEmpty(reqHeaders) && !string.IsNullOrEmpty(respHeaders) && !string.IsNullOrEmpty(respBody))
 		{
 
-			string login = project.Profile.Login;
-			string pass = project.Profile.Password;
-			string email = project.Profile.Email;
+			string login = "";
+			string pass = "";
+			string email = "";
 			//string hyattMember = "";
 			string campaign = "";
 
@@ -1889,6 +1889,9 @@
             }
 
         }
+
+
+
 
 
 
